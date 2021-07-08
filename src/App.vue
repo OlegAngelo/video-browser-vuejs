@@ -43,6 +43,7 @@ export default {
                 this.videos = response.data.items
             });
         },
+
         onVideoSelect(video){
             this.selectedVideo = video;
         }
